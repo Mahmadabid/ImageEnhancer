@@ -5,7 +5,7 @@ This repository contains Python scripts for various image processing tasks inclu
 ## 📄 Files and Descriptions
 
 
-### `Img_to_pixel.py`
+## `Img_to_pixel.py`
 
 Converts a square image (`img.jpg`) into a list of pixel data. This pixel data is saved to `imgPixel.txt`.
 
@@ -16,7 +16,7 @@ python Img_to_pixel.py
 
 ---
 
-### `Pixel_to_Img.py`
+## `Pixel_to_Img.py`
 
 Takes pixel data from `imgPixel.txt` and reconstructs it into an image. The resulting image is saved as `output_image.jpg`.
 
@@ -27,7 +27,7 @@ python Pixel_to_Img.py
 
 ---
 
-### `ImgEnhancer.py`
+## `ImgEnhancer.py`
 
 Enhances the resolution of an image by scaling it to four times its original dimensions.
 
@@ -47,7 +47,6 @@ To install the required dependencies:
 ```ruby
 pip install Pillow
 ```
-"""
 
 # Write the content to README.md
 ```ruby
