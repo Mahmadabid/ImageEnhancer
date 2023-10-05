@@ -32,7 +32,7 @@ python Pixel_to_Img.py
 Enhances the resolution of an image by scaling it to four times its original dimensions.
 
 **Usage:** 
-```bash
+```ruby
 python ImgEnhancer.py
 ```
 
@@ -44,11 +44,13 @@ python ImgEnhancer.py
 * Pillow library
 
 To install the required dependencies:
-\```bash
+```ruby
 pip install Pillow
-\```
+```
 """
 
 # Write the content to README.md
+```ruby
 with open("README.md", "w") as f:
     f.write(readme_content)
+```
