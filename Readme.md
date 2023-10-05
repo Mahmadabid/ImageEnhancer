@@ -1,5 +1,3 @@
-# Define the content for the README.md file
-readme_content = """
 # Image Processing Repository
 
 This repository contains Python scripts for various image processing tasks including pixel extraction and image enhancement.
@@ -47,9 +45,9 @@ python ImgEnhancer.py
 * Pillow library
 
 To install the required dependencies:
-\bash
+\```bash
 pip install Pillow
-\
+\```
 """
 
 # Write the content to README.md
