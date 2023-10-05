@@ -15,14 +15,14 @@ Converts a square image (`img.jpg`) into a list of pixel data. This pixel data i
 python Img_to_pixel.py
 ```
 
----
+--
 
 ### `Pixel_to_Img.py`
 
 Takes pixel data from `imgPixel.txt` and reconstructs it into an image. The resulting image is saved as `output_image.jpg`.
 
 **Usage:** 
-\```bash
+\```ruby
 python Pixel_to_Img.py
 \```
 
