@@ -4,7 +4,6 @@ This repository contains Python scripts for various image processing tasks inclu
 
 ## 📄 Files and Descriptions
 
---
 
 ### `Img_to_pixel.py`
 
@@ -15,16 +14,16 @@ Converts a square image (`img.jpg`) into a list of pixel data. This pixel data i
 python Img_to_pixel.py
 ```
 
---
+---
 
 ### `Pixel_to_Img.py`
 
 Takes pixel data from `imgPixel.txt` and reconstructs it into an image. The resulting image is saved as `output_image.jpg`.
 
 **Usage:** 
-\```ruby
+```ruby
 python Pixel_to_Img.py
-\```
+```
 
 ---
 
@@ -33,9 +32,9 @@ python Pixel_to_Img.py
 Enhances the resolution of an image by scaling it to four times its original dimensions.
 
 **Usage:** 
-\```bash
+```bash
 python ImgEnhancer.py
-\```
+```
 
 ---
 
