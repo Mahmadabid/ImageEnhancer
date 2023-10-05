@@ -5,7 +5,7 @@ This repository contains Python scripts for various image processing tasks inclu
 ## 📄 Files and Descriptions
 
 
-## `Img_to_pixel.py`
+## Img_to_pixel.py
 
 Converts a square image (`img.jpg`) into a list of pixel data. This pixel data is saved to `imgPixel.txt`.
 
