@@ -50,7 +50,6 @@ python Gui.py
 Follow the on-screen prompts to select and perform the desired image processing task.
 
 ### Individual Scripts
-<br>
 
 #### 1. Upscale an Image
 
@@ -61,7 +60,6 @@ python ImgUpscaler.py
 ```
 
 By default, it processes `img.jpg` and generates an upscaled image.
-<br>
 
 #### 2. Convert Pixel Data to Image
 
@@ -72,7 +70,6 @@ python Pixel_to_Img.py
 ```
 
 This defaults to `imgPixel.txt` as input and produces an image from the pixel data.
-<br>
 
 #### 3. Extract Pixel RGB Values from an Image
 
@@ -83,7 +80,6 @@ python Img_to_Pixel.py
 ```
 
 By default, it uses `img.jpg` for input and writes the pixel RGB values to `imgPixel.txt`.
-<br>
 
 #### 4. Generate Unique Filenames with `uniquePath.py`
 
