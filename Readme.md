@@ -48,7 +48,42 @@ To utilize the GUI application:
 python Gui.py
 ```
 
+
 Follow the on-screen instructions to select and execute the desired image processing operation.
+
+### Individual Scripts
+
+1. **Upscale an Image**
+
+   To upscale an image:
+
+```ruby
+python ImgUpscaler.py
+```
+
+By default, it uses `img.jpg` as input and produces an upscaled image.
+
+2. **Convert Pixel Data to Image**
+
+To convert pixel data (from a text file) back to an image:
+
+```ruby
+python Pixel_to_Img.py
+```
+
+By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
+
+3. **Extract Pixel RGB Values from an Image**
+
+To extract RGB values from an image and save to a text file:
+
+```ruby
+python Img_to_Pixel.py
+```
+
+By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
+
+Note: The default inputs and outputs can be changed within each script or modified to accept command line arguments based on user preference.
 
 ## Files Description
 
