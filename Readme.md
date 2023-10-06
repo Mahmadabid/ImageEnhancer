@@ -53,6 +53,7 @@ Follow the on-screen instructions to select and execute the desired image proces
 
 ### Individual Scripts
 
+
 1. **Upscale an Image**
 
    To upscale an image:
@@ -63,6 +64,7 @@ python ImgUpscaler.py
 
 By default, it uses `img.jpg` as input and produces an upscaled image.
 
+
 2. **Convert Pixel Data to Image**
 
 To convert pixel data (from a text file) back to an image:
@@ -72,6 +74,7 @@ python Pixel_to_Img.py
 ```
 
 By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
+
 
 3. **Extract Pixel RGB Values from an Image**
 
