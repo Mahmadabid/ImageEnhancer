@@ -55,47 +55,47 @@ Follow the on-screen instructions to select and execute the desired image proces
 
 
 
-1. **Upscale an Image**
+#### 1. Upscale an Image
 
    To upscale an image:
 
-```ruby
-python ImgUpscaler.py
-```
+    ```ruby
+    python ImgUpscaler.py
+    ```
 
-By default, it uses `img.jpg` as input and produces an upscaled image.
-
-
-
-2. **Convert Pixel Data to Image**
-
-To convert pixel data (from a text file) back to an image:
-
-```ruby
-python Pixel_to_Img.py
-```
-
-By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
+    By default, it uses `img.jpg` as input and produces an upscaled image.
 
 
 
-3. **Extract Pixel RGB Values from an Image**
+#### 2. Convert Pixel Data to Image
 
-To extract RGB values from an image and save to a text file:
+    To convert pixel data (from a text file) back to an image:
 
-```ruby
-python Img_to_Pixel.py
-```
+    ```ruby
+    python Pixel_to_Img.py
+    ```
 
-By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
+    By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
 
 
 
-4. **Generating Unique Filenames with uniquePath.py**
+#### 3. Extract Pixel RGB Values from an Image
 
-The `uniquePath.py` script contains a utility function to ensure generated filenames are unique. While it's primarily integrated into the other scripts to avoid filename conflicts, advanced users can leverage this function in custom scripts or integrations.
+    To extract RGB values from an image and save to a text file:
 
-To utilize the unique filename generation in custom scripts:
+    ```ruby
+    python Img_to_Pixel.py
+    ```
+
+    By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
+
+
+
+#### 4. Generating Unique Filenames with uniquePath.py
+
+    The `uniquePath.py` script contains a utility function to ensure generated filenames are unique. While it's primarily integrated into the other scripts to avoid filename conflicts, advanced users can leverage this function in custom scripts or integrations.
+
+    To utilize the unique filename generation in custom scripts:
 
 Note: The default inputs and outputs can be changed within each script or modified to accept command line arguments based on user preference.
 
@@ -106,3 +106,5 @@ Note: The default inputs and outputs can be changed within each script or modifi
 - `Img_to_Pixel.py`: Extracts pixel RGB values from an image and saves them to a text file.
 - `uniquePath.py`: Utility script that generates unique filenames.
 - `Gui.py`: GUI application integrating all the above functionalities.
+- `img.jpg`: Sample image file used for demonstrations and testing the toolkit's functionalities.
+- `imgPixel.txt`: Sample text file that contains rows of pixel data. Each line in this file represents a list of RGB tuples corresponding to a row of pixels from the original image (e.g., `[(255, 255, 255), (0, 0, 0)]` where each tuple represents the RGB value of a pixel).
