@@ -54,6 +54,7 @@ Follow the on-screen instructions to select and execute the desired image proces
 ### Individual Scripts
 
 
+
 1. **Upscale an Image**
 
    To upscale an image:
@@ -63,6 +64,7 @@ python ImgUpscaler.py
 ```
 
 By default, it uses `img.jpg` as input and produces an upscaled image.
+
 
 
 2. **Convert Pixel Data to Image**
@@ -76,6 +78,7 @@ python Pixel_to_Img.py
 By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
 
 
+
 3. **Extract Pixel RGB Values from an Image**
 
 To extract RGB values from an image and save to a text file:
@@ -87,9 +90,10 @@ python Img_to_Pixel.py
 By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
 
 
+
 4. **Generating Unique Filenames with uniquePath.py**
 
-   The `uniquePath.py` script contains a utility function to ensure generated filenames are unique. While it's primarily integrated into the other scripts to avoid filename conflicts, advanced users can leverage this function in custom scripts or integrations.
+The `uniquePath.py` script contains a utility function to ensure generated filenames are unique. While it's primarily integrated into the other scripts to avoid filename conflicts, advanced users can leverage this function in custom scripts or integrations.
 
 To utilize the unique filename generation in custom scripts:
 
