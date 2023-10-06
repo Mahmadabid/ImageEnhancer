@@ -33,15 +33,15 @@ python Pixel_to_Img.py
 
 ---
 
-## `ImgEnhancer.py`
+## `ImgUpscaler.py`
 
-**Purpose**: The main goal of this script is image enhancement through size scaling. It processes an image and increases its size to four times its original dimensions.
+**Purpose**: This script enhances a square image by enlarging it to four times its original size, where each pixel is represented by a 2x2 block in the scaled image.
 
-**Output**: A scaled image that's 4x the size of the input image.
+**Output**: A scaled image named `scaled_image.jpg` that's 4x the size of the input image.
 
 **Usage:** 
 ```ruby
-python ImgEnhancer.py
+python ImgUpscaler.py
 ```
 
 ---
