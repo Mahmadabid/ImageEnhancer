@@ -59,9 +59,9 @@ Follow the on-screen instructions to select and execute the desired image proces
 
    To upscale an image:
 
-    ```ruby
-    python ImgUpscaler.py
-    ```
+```ruby
+python ImgUpscaler.py
+```
 
     By default, it uses `img.jpg` as input and produces an upscaled image.
 
@@ -71,9 +71,9 @@ Follow the on-screen instructions to select and execute the desired image proces
 
     To convert pixel data (from a text file) back to an image:
 
-    ```ruby
-    python Pixel_to_Img.py
-    ```
+```ruby
+python Pixel_to_Img.py
+```
 
     By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
 
@@ -83,10 +83,9 @@ Follow the on-screen instructions to select and execute the desired image proces
 
     To extract RGB values from an image and save to a text file:
 
-    ```ruby
-    python Img_to_Pixel.py
-    ```
-
+```ruby
+python Img_to_Pixel.py
+```
     By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
 
 
