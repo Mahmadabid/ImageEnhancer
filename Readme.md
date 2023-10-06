@@ -86,6 +86,13 @@ python Img_to_Pixel.py
 
 By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
 
+
+4. **Generating Unique Filenames with uniquePath.py**
+
+   The `uniquePath.py` script contains a utility function to ensure generated filenames are unique. While it's primarily integrated into the other scripts to avoid filename conflicts, advanced users can leverage this function in custom scripts or integrations.
+
+To utilize the unique filename generation in custom scripts:
+
 Note: The default inputs and outputs can be changed within each script or modified to accept command line arguments based on user preference.
 
 ## Files Description
