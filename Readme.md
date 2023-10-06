@@ -1,6 +1,6 @@
 # Image Processing Tool
 
-This repository contains an image processing toolkit that provides functionalities such as upscaling an image, converting pixel data to an image, and extracting pixel data from an image. Additionally, it provides a GUI-based application to interactively execute these operations.
+This repository offers an image processing toolkit with features like upscaling images, converting pixel data to images, and extracting pixel data from images. It also provides an interactive GUI application to simplify these operations.
 
 ## Table of Contents
 
@@ -24,7 +24,7 @@ This repository contains an image processing toolkit that provides functionaliti
 1. Clone this repository:
 
 ```ruby
-git clone [https://github.com/Mahmadabid/ImageUpscaler]
+git clone https://github.com/Mahmadabid/ImageUpscaler
 ```
 
 2. Navigate to the project directory:
@@ -39,71 +39,60 @@ cd ImageUpscaler
 pip install Pillow PyQt5 pyqt5-tools
 ```
 
-
 ## Usage
 
-To utilize the GUI application:
+To use the GUI application:
 
 ```ruby
 python Gui.py
 ```
 
-
-Follow the on-screen instructions to select and execute the desired image processing operation.
+Follow the on-screen prompts to select and perform the desired image processing task.
 
 ### Individual Scripts
 
-
-
 #### 1. Upscale an Image
 
-   To upscale an image:
+To upscale an image:
 
 ```ruby
 python ImgUpscaler.py
 ```
 
-    By default, it uses `img.jpg` as input and produces an upscaled image.
-
-
+By default, it processes `img.jpg` and generates an upscaled image.
 
 #### 2. Convert Pixel Data to Image
 
-    To convert pixel data (from a text file) back to an image:
+To convert pixel data from a text file to an image:
 
 ```ruby
 python Pixel_to_Img.py
 ```
 
-    By default, it uses `imgPixel.txt` as input and creates an image from the pixel data.
-
-
+This defaults to `imgPixel.txt` as input and produces an image from the pixel data.
 
 #### 3. Extract Pixel RGB Values from an Image
 
-    To extract RGB values from an image and save to a text file:
+To extract RGB values from an image and save them to a text file:
 
 ```ruby
 python Img_to_Pixel.py
 ```
-    By default, it uses `img.jpg` as input and outputs the pixel RGB values to `imgPixel.txt`.
 
+By default, it uses `img.jpg` for input and writes the pixel RGB values to `imgPixel.txt`.
 
+#### 4. Generate Unique Filenames with `uniquePath.py`
 
-#### 4. Generating Unique Filenames with uniquePath.py
+This script ensures filename uniqueness. It's especially valuable when the other scripts are used independently without the GUI to prevent filename conflicts. Advanced users can also integrate its function in custom scripts or workflows.
 
-    The `uniquePath.py` script contains a utility function to ensure generated filenames are unique. While it's primarily integrated into the other scripts to avoid filename conflicts, advanced users can leverage this function in custom scripts or integrations.
-
-    To utilize the unique filename generation in custom scripts:
-
-Note: The default inputs and outputs can be changed within each script or modified to accept command line arguments based on user preference.
+> Note: The default file inputs and outputs can be adjusted in each script or configured to use command-line arguments based on user preference.
 
 ## Files Description
 
-- `ImgUpscaler.py`: Upscales a sqaure image to 4x its original size.
-- `Pixel_to_Img.py`: Converts pixel data from a text file back to an image.
-- `Img_to_Pixel.py`: Extracts pixel RGB values from an image and saves them to a text file.
-- `uniquePath.py`: Utility script that generates unique filenames.
-- `Gui.py`: GUI application integrating all the above functionalities.
-- `img.jpg`: Sample image file used for demonstrations and testing the toolkit's functionalities.
-- `imgPixel.txt`: Sample text file that contains rows of pixel data. Each line in this file represents a list of RGB tuples corresponding to a row of pixels from the original image (e.g., `[(255, 255, 255), (0, 0, 0)]` where each tuple represents the RGB value of a pixel).
+- `ImgUpscaler.py`: Upscales a square image to 4x its original size.
+- `Pixel_to_Img.py`: Transforms pixel data from a text file back into an image.
+- `Img_to_Pixel.py`: Extracts pixel RGB values from an image and writes them to a text file.
+- `uniquePath.py`: Utility script that ensures unique filenames.
+- `Gui.py`: GUI app that encompasses the functionalities of the above scripts.
+- `img.jpg`: A sample image for testing and demonstration.
+- `imgPixel.txt`: A sample text file containing rows of pixel data. Each line in the file represents a list of RGB tuples corresponding to a row of pixels from the source image, e.g., `[(255, 255, 255), (0, 0, 0)]`.
